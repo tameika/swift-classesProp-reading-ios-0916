@@ -31,6 +31,7 @@ print("Area is \(square5.area)")
 
 
 
+
 class Square2 {
     var topLeftCorner: (Double, Double)
     var lengthOfSide: Double
@@ -48,6 +49,8 @@ class Square2 {
         self.lengthOfSide = lengthOfSide
     }
 }
+
+
 
 var square6 = Square2(topLeftCorner: (10.0, 10.0), lengthOfSide: 10.0)
 print("Area is 100.0? \(square6.area)")
